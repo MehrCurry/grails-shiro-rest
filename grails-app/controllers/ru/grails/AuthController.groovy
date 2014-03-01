@@ -3,9 +3,7 @@ package ru.grails
 import org.apache.shiro.SecurityUtils
 import org.apache.shiro.authc.AuthenticationException
 import org.apache.shiro.authc.UsernamePasswordToken
-import org.apache.shiro.web.util.SavedRequest
 import org.apache.shiro.web.util.WebUtils
-import org.apache.shiro.grails.ConfigUtils
 
 class AuthController {
     def shiroSecurityManager
